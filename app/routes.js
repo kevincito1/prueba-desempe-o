@@ -7,7 +7,7 @@ import { EditFlightsPage } from './pages/private/edit-flights/editFlights.page'
 
 export const routes = {
     public:[
-        {path: '/register', page:RegisterPage},
+        {path: '/', page:RegisterPage},
         {path: '/login', page:LoginPage},
         {path:'/not-found', page: NotFound}
     ],
