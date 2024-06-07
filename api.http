@@ -1,32 +1,19 @@
-# # Get all users
-# GET http://localhost:3000/users
+GET http://localhost:3000/Flights HTTP/1.1
 
-# # Get a specific user
-# GET http://localhost:3000/users/2
+################################
 
-# # Create a new user
-# POST http://localhost:3000/users
-# Content-Type: application/json
+GET http://localhost:3000/Role HTTP/1.1
 
-# {
-#   "name": "John Doe ultimo agregado",
-#   "email": "johndoe@example.com",
-#   "roleId" : 1
-# }
+################################
 
-# # Update a user
-# PUT http://localhost:3000/users/3
-# Content-Type: application/json
+GET http://localhost:3000/User HTTP/1.1
 
-# {
-#   "name": "John Doe updated",
-#   "email": "nuevoemail@gmail.com",
-#     "roleId" : 20
-# }
+################################
 
-# # Delete a user
-# DELETE http://localhost:3000/users/3
+GET http://localhost:3000/Booking HTTP/1.1
+ 
 
-# ### User Challenges
 
-# GET http://localhost:3000/user_challenge?userId=1&_embed=challenge
+
+
+

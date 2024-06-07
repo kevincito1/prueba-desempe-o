@@ -1,0 +1,77 @@
+{
+  "Flights": [
+    {
+      "id": 1,
+      "number": 758,
+      "origin": "Medellín",
+      "destination": "Bogota",
+      "departure": "2024-06-07 14:00",
+      "arrival": "2024-06-07 15:00",
+      "capacity": 200
+    },
+    {
+      "id": 2,
+      "number": 759,
+      "origin": "Cartagena",
+      "destination": "Bogota",
+      "departure": "2024-06-08 17:00",
+      "arrival": "2024-06-08 19:00",
+      "capacity": 158
+    },
+    {
+      "id": 3,
+      "number": 760,
+      "origin": "Medellín",
+      "destination": "Madrid",
+      "departure": "2024-06-06 8:00",
+      "arrival": "2024-06-06 23:00",
+      "capacity": 210
+    },
+    {
+      "id": 4,
+      "number": 761,
+      "origin": "Bogota",
+      "destination": "New York",
+      "departure": "2024-06-10 11:00",
+      "arrival": "2024-06-10 17:00",
+      "capacity": 200
+    },
+    {
+      "id": "487a",
+      "number": "8",
+      "origin": "miami",
+      "destination": "2024-06-20 12:30",
+      "departure": "2024-06-20 12:30",
+      "arrival": "2024-06-20 17:00"
+    }
+  ],
+  "Role": [
+    {
+      "id": 1,
+      "name": "Admin"
+    },
+    {
+      "id": 2,
+      "name": "Visitor"
+    }
+  ],
+  "User": [
+    {
+      "id": "e16b",
+      "name": "Kevin Rodas",
+      "email": "kevin.rodas.cuartas@gmail.com",
+      "birthday": "1989-11-30",
+      "password": "password123",
+      "roleId": 1
+    },
+    {
+      "id": "3",
+      "name": "Hulk",
+      "email": "hulk@gmail.com",
+      "birthday": "1989-11-30",
+      "password": "123456",
+      "roleId": 2
+    }
+  ],
+  "Booking": []
+}
